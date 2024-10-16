@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <form id="main-form">
+        <div>
+          <label for="brand">Marca</label>
+          <input
+            id="brand"
+            placeholder="Apple, Samsung, Doogee..."
+            required
+            minlength="1"
+            maxlength="100"
+          />
+        </div>
+        <div>
+          <label for="model">Modello</label>
+          <input
+            id="model"
+            placeholder="Iphone 21, Samsung A50"
+            required
+            minlength="1"
+            maxlength="100"
+          />
+        </div>
+        <div>
+          <label for="price">Prezzo</label>
+          <input
+            id="price"
+            placeholder="100"
+            required
+            minlength="1"
+            type="number"
+          />
+        </div>
+        <div>
+          <button>INVIA</button>
+          <button type="button">INVIA per finta</button>
+          <button type="reset">INVIAMOOO (resettato)</button>
+        </div>
+      </form>
+    </main>
+    <script src="form.js"></script>
+  </body>
+</html>
