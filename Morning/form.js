@@ -14,7 +14,5 @@ form.addEventListener('submit', (ev) => {
   const main = document.getElementsByTagName('main')[0]
   main.appendChild(h3)
   //per azzerare dopo l'invio
-  brand.value = ''
-  price.value = ''
-  model.value = ''
+  form.reset()
 })
